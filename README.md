@@ -37,4 +37,4 @@ import { Archive, AddCircle, ShieldTick } from "iconsax-react-v2";
 
 ## License
 
-MIT — Icons from [iconsax.io](https://iconsax.io)
+MIT - Icons from [iconsax.io](https://iconsax.io)
