@@ -1,0 +1,72 @@
+import React from 'react';
+
+var Bold = function Bold(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M15.0001 1.61914H9.00012C5.81012 1.61914 4.62012 2.80914 4.62012 5.99914V17.9991C4.62012 21.1891 5.81012 22.3791 9.00012 22.3791H15.0001C18.1901 22.3791 19.3801 21.1891 19.3801 17.9991V5.99914C19.3801 2.80914 18.1901 1.61914 15.0001 1.61914ZM12.0001 5.99914C12.8301 5.99914 13.5001 6.66914 13.5001 7.49914C13.5001 8.32914 12.8301 8.99914 12.0001 8.99914C11.1701 8.99914 10.5001 8.32914 10.5001 7.49914C10.5001 6.66914 11.1701 5.99914 12.0001 5.99914ZM12.0001 17.9991C10.3401 17.9991 9.00012 16.6591 9.00012 14.9991C9.00012 13.3391 10.3401 11.9991 12.0001 11.9991C13.6601 11.9991 15.0001 13.3391 15.0001 14.9991C15.0001 16.6591 13.6601 17.9991 12.0001 17.9991Z"}),);
+};
+
+var Broken = function Broken(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M5 13.99V6C5 3 6 2 9 2H15C18 2 19 3 19 6V18C19 21 18 22 15 22H9C6 22 5 21 5 18","stroke":"currentColor","strokeWidth":"1.5","strokeMiterlimit":"10","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M12 18C13.6569 18 15 16.6569 15 15C15 13.3431 13.6569 12 12 12C10.3431 12 9 13.3431 9 15C9 16.6569 10.3431 18 12 18Z","stroke":"currentColor","strokeWidth":"1.5","strokeMiterlimit":"10","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M13.5 7.5C13.5 6.67 12.83 6 12 6C11.17 6 10.5 6.67 10.5 7.5C10.5 8.33 11.17 9 12 9","stroke":"currentColor","strokeWidth":"1.5","strokeMiterlimit":"10","strokeLinecap":"round","strokeLinejoin":"round"}),);
+};
+
+var Bulk = function Bulk(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M12 18C13.6569 18 15 16.6569 15 15C15 13.3431 13.6569 12 12 12C10.3431 12 9 13.3431 9 15C9 16.6569 10.3431 18 12 18Z"}),React.createElement("path", {"d":"M12 9C12.8284 9 13.5 8.32843 13.5 7.5C13.5 6.67157 12.8284 6 12 6C11.1716 6 10.5 6.67157 10.5 7.5C10.5 8.32843 11.1716 9 12 9Z"}),React.createElement("path", {"opacity":"0.4","d":"M15.0001 1.61914H9.00012C5.81012 1.61914 4.62012 2.80914 4.62012 5.99914V17.9991C4.62012 21.1891 5.81012 22.3791 9.00012 22.3791H15.0001C18.1901 22.3791 19.3801 21.1891 19.3801 17.9991V5.99914C19.3801 2.80914 18.1901 1.61914 15.0001 1.61914ZM12.0001 5.99914C12.8301 5.99914 13.5001 6.66914 13.5001 7.49914C13.5001 8.32914 12.8301 8.99914 12.0001 8.99914C11.1701 8.99914 10.5001 8.32914 10.5001 7.49914C10.5001 6.66914 11.1701 5.99914 12.0001 5.99914ZM12.0001 17.9991C10.3401 17.9991 9.00012 16.6591 9.00012 14.9991C9.00012 13.3391 10.3401 11.9991 12.0001 11.9991C13.6601 11.9991 15.0001 13.3391 15.0001 14.9991C15.0001 16.6591 13.6601 17.9991 12.0001 17.9991Z"}),);
+};
+
+var Linear = function Linear(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M9 22H15C18 22 19 21 19 18V6C19 3 18 2 15 2H9C6 2 5 3 5 6V18C5 21 6 22 9 22Z","stroke":"currentColor","strokeWidth":"1.5","strokeMiterlimit":"10","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M12 18C13.6569 18 15 16.6569 15 15C15 13.3431 13.6569 12 12 12C10.3431 12 9 13.3431 9 15C9 16.6569 10.3431 18 12 18Z","stroke":"currentColor","strokeWidth":"1.5","strokeMiterlimit":"10","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M12 9C12.8284 9 13.5 8.32843 13.5 7.5C13.5 6.67157 12.8284 6 12 6C11.1716 6 10.5 6.67157 10.5 7.5C10.5 8.32843 11.1716 9 12 9Z","stroke":"currentColor","strokeWidth":"1.5","strokeMiterlimit":"10","strokeLinecap":"round","strokeLinejoin":"round"}),);
+};
+
+var Outline = function Outline(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M15 22.75H9C5.58 22.75 4.25 21.42 4.25 18V6C4.25 2.58 5.58 1.25 9 1.25H15C18.42 1.25 19.75 2.58 19.75 6V18C19.75 21.42 18.42 22.75 15 22.75ZM9 2.75C6.42 2.75 5.75 3.42 5.75 6V18C5.75 20.58 6.42 21.25 9 21.25H15C17.58 21.25 18.25 20.58 18.25 18V6C18.25 3.42 17.58 2.75 15 2.75H9Z"}),React.createElement("path", {"d":"M12 18.75C9.93 18.75 8.25 17.07 8.25 15C8.25 12.93 9.93 11.25 12 11.25C14.07 11.25 15.75 12.93 15.75 15C15.75 17.07 14.07 18.75 12 18.75ZM12 12.75C10.76 12.75 9.75 13.76 9.75 15C9.75 16.24 10.76 17.25 12 17.25C13.24 17.25 14.25 16.24 14.25 15C14.25 13.76 13.24 12.75 12 12.75Z"}),React.createElement("path", {"d":"M12 9.75C10.76 9.75 9.75 8.74 9.75 7.5C9.75 6.26 10.76 5.25 12 5.25C13.24 5.25 14.25 6.26 14.25 7.5C14.25 8.74 13.24 9.75 12 9.75ZM12 6.75C11.59 6.75 11.25 7.09 11.25 7.5C11.25 7.91 11.59 8.25 12 8.25C12.41 8.25 12.75 7.91 12.75 7.5C12.75 7.09 12.41 6.75 12 6.75Z"}),);
+};
+
+var TwoTone = function TwoTone(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M9 22H15C18 22 19 21 19 18V6C19 3 18 2 15 2H9C6 2 5 3 5 6V18C5 21 6 22 9 22Z","stroke":"currentColor","strokeWidth":"1.5","strokeMiterlimit":"10","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"opacity":"0.4","d":"M12 18C13.6569 18 15 16.6569 15 15C15 13.3431 13.6569 12 12 12C10.3431 12 9 13.3431 9 15C9 16.6569 10.3431 18 12 18Z","stroke":"currentColor","strokeWidth":"1.5","strokeMiterlimit":"10","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"opacity":"0.4","d":"M12 9C12.8284 9 13.5 8.32843 13.5 7.5C13.5 6.67157 12.8284 6 12 6C11.1716 6 10.5 6.67157 10.5 7.5C10.5 8.32843 11.1716 9 12 9Z","stroke":"currentColor","strokeWidth":"1.5","strokeMiterlimit":"10","strokeLinecap":"round","strokeLinejoin":"round"}),);
+};
+
+var chooseVariant = function(variant, color) {
+  switch (variant) {
+    case 'Linear':
+      return React.createElement(Linear, { color: color });
+    case 'Bold':
+      return React.createElement(Bold, { color: color });
+    case 'Broken':
+      return React.createElement(Broken, { color: color });
+    case 'Bulk':
+      return React.createElement(Bulk, { color: color });
+    case 'Outline':
+      return React.createElement(Outline, { color: color });
+    case 'TwoTone':
+      return React.createElement(TwoTone, { color: color });
+    default:
+      return React.createElement(Linear, { color: color });
+  }
+};
+
+var Speaker = React.forwardRef(function(props, ref) {
+  var variant = props.variant,
+      color = props.color,
+      size = props.size,
+      rest = Object.assign({}, props);
+  delete rest.variant;
+  delete rest.color;
+  delete rest.size;
+
+  return React.createElement("svg", Object.assign({}, rest, {
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: ref,
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none"
+  }), chooseVariant(variant, color));
+});
+
+Speaker.defaultProps = {
+  variant: 'Linear',
+  color: 'currentColor',
+  size: '24'
+};
+Speaker.displayName = 'Speaker';
+
+export default Speaker;

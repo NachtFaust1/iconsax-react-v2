@@ -1,0 +1,54 @@
+{
+  "name": "iconsax-react-v2",
+  "version": "1.0.0",
+  "description": "Iconsax icon pack for React — 1100 icons in 6 styles (Linear, Bold, Broken, Bulk, Outline, TwoTone)",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build-bundle.mjs",
+    "prepack": "npm run build",
+    "test": "node full-sweep.mjs"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "keywords": [
+    "icons",
+    "react",
+    "iconsax",
+    "svg",
+    "icon-library",
+    "iconsax-react"
+  ],
+  "author": "iconsax-react-v2 contributors",
+  "license": "MIT",
+  "homepage": "https://iconsax.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NachtFaust1/iconsax-react-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NachtFaust1/iconsax-react-v2/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,72 @@
+import React from 'react';
+
+var Bold = function Bold(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M22.0001 5.11V16.47C22.0001 17.92 20.9601 18.53 19.6901 17.83L17.7601 16.75C17.6001 16.66 17.5001 16.49 17.5001 16.31V8.99C17.5001 6.45 15.4301 4.38 12.8901 4.38H8.82008C8.45008 4.38 8.19008 3.99 8.36008 3.67C8.88008 2.68 9.92008 2 11.1101 2H18.8901C20.6001 2 22.0001 3.4 22.0001 5.11Z"}),React.createElement("path", {"d":"M12.89 5.88086H5.11C3.4 5.88086 2 7.28086 2 8.99086V20.3509C2 21.8009 3.04 22.4109 4.31 21.7109L8.24 19.5209C8.66 19.2909 9.34 19.2909 9.76 19.5209L13.69 21.7109C14.96 22.4109 16 21.8009 16 20.3509V8.99086C16 7.28086 14.6 5.88086 12.89 5.88086ZM11 12.7509H9.75V14.0009C9.75 14.4109 9.41 14.7509 9 14.7509C8.59 14.7509 8.25 14.4109 8.25 14.0009V12.7509H7C6.59 12.7509 6.25 12.4109 6.25 12.0009C6.25 11.5909 6.59 11.2509 7 11.2509H8.25V10.0009C8.25 9.59086 8.59 9.25086 9 9.25086C9.41 9.25086 9.75 9.59086 9.75 10.0009V11.2509H11C11.41 11.2509 11.75 11.5909 11.75 12.0009C11.75 12.4109 11.41 12.7509 11 12.7509Z"}),);
+};
+
+var Broken = function Broken(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M22 5.10999V16.47C22 17.92 20.96 18.53 19.69 17.83L16 15.77V8.98999C16 7.27999 14.6 5.88 12.89 5.88H8V5.10999C8 3.39999 9.39999 2 11.11 2H18.89C20.6 2 22 3.39999 22 5.10999Z","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M7 12H11","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M9 14V10","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M2 20.3509C2 21.8009 3.04 22.4108 4.31 21.7108L8.23999 19.5208C8.65999 19.2908 9.34001 19.2908 9.76001 19.5208L13.69 21.7108C14.96 22.4108 16 21.8009 16 20.3509V8.99084C16 7.28084 14.6 5.88086 12.89 5.88086H5.10999C3.39999 5.88086 2 7.28084 2 8.99084V15.5109","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),);
+};
+
+var Bulk = function Bulk(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"opacity":"0.4","d":"M16 8.99084V20.3509C16 21.8009 14.96 22.4108 13.69 21.7108L9.76001 19.5208C9.34001 19.2908 8.65999 19.2908 8.23999 19.5208L4.31 21.7108C3.04 22.4108 2 21.8009 2 20.3509V8.99084C2 7.28084 3.39999 5.88086 5.10999 5.88086H12.89C14.6 5.88086 16 7.28084 16 8.99084Z"}),React.createElement("path", {"d":"M22 5.10999V16.47C22 17.92 20.96 18.53 19.69 17.83L16 15.77V8.98999C16 7.27999 14.6 5.88 12.89 5.88H8V5.10999C8 3.39999 9.39999 2 11.11 2H18.89C20.6 2 22 3.39999 22 5.10999Z"}),React.createElement("path", {"d":"M11 11.25H9.75V10C9.75 9.59 9.41 9.25 9 9.25C8.59 9.25 8.25 9.59 8.25 10V11.25H7C6.59 11.25 6.25 11.59 6.25 12C6.25 12.41 6.59 12.75 7 12.75H8.25V14C8.25 14.41 8.59 14.75 9 14.75C9.41 14.75 9.75 14.41 9.75 14V12.75H11C11.41 12.75 11.75 12.41 11.75 12C11.75 11.59 11.41 11.25 11 11.25Z"}),);
+};
+
+var Linear = function Linear(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M16 8.99084V20.3509C16 21.8009 14.96 22.4108 13.69 21.7108L9.76001 19.5208C9.34001 19.2908 8.65999 19.2908 8.23999 19.5208L4.31 21.7108C3.04 22.4108 2 21.8009 2 20.3509V8.99084C2 7.28084 3.39999 5.88086 5.10999 5.88086H12.89C14.6 5.88086 16 7.28084 16 8.99084Z","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M22 5.10999V16.47C22 17.92 20.96 18.53 19.69 17.83L16 15.77V8.98999C16 7.27999 14.6 5.88 12.89 5.88H8V5.10999C8 3.39999 9.39999 2 11.11 2H18.89C20.6 2 22 3.39999 22 5.10999Z","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M7 12H11","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M9 14V10","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),);
+};
+
+var Outline = function Outline(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M14.69 22.7506C14.25 22.7506 13.79 22.6206 13.32 22.3706L9.39001 20.1806C9.20001 20.0806 8.78998 20.0806 8.59998 20.1806L4.67999 22.3706C3.82999 22.8406 2.95999 22.8806 2.29999 22.4906C1.62999 22.1006 1.25 21.3206 1.25 20.3606V9.00061C1.25 6.87061 2.97999 5.14062 5.10999 5.14062H12.89C15.02 5.14062 16.75 6.87061 16.75 9.00061V20.3606C16.75 21.3206 16.37 22.1006 15.7 22.4906C15.4 22.6606 15.06 22.7506 14.69 22.7506ZM9 18.6006C9.4 18.6006 9.79 18.6906 10.12 18.8706L14.05 21.0606C14.41 21.2606 14.74 21.3106 14.94 21.1906C15.13 21.0806 15.25 20.7606 15.25 20.3506V8.9906C15.25 7.6906 14.19 6.63062 12.89 6.63062H5.10999C3.80999 6.63062 2.75 7.6906 2.75 8.9906V20.3506C2.75 20.7606 2.87 21.0806 3.06 21.1906C3.25 21.3006 3.59001 21.2506 3.95001 21.0506L7.88 18.8606C8.20001 18.6906 8.6 18.6006 9 18.6006Z"}),React.createElement("path", {"d":"M20.69 18.8698C20.25 18.8698 19.79 18.7397 19.32 18.4897L15.63 16.4297C15.39 16.2997 15.25 16.0498 15.25 15.7798V8.99976C15.25 7.69976 14.19 6.63977 12.89 6.63977H8C7.59 6.63977 7.25 6.29977 7.25 5.88977V5.11975C7.25 2.98975 8.97999 1.25977 11.11 1.25977H18.89C21.02 1.25977 22.75 2.98975 22.75 5.11975V16.4798C22.75 17.4398 22.37 18.2197 21.7 18.6097C21.4 18.7797 21.06 18.8698 20.69 18.8698ZM16.75 15.3297L20.05 17.1797C20.41 17.3797 20.74 17.4298 20.94 17.3098C21.13 17.1998 21.25 16.8798 21.25 16.4698V5.10974C21.25 3.80974 20.19 2.74976 18.89 2.74976H11.11C9.80999 2.74976 8.75 3.80974 8.75 5.10974V5.12976H12.89C15.02 5.12976 16.75 6.85975 16.75 8.98975V15.3297Z"}),React.createElement("path", {"d":"M11 12.75H7C6.59 12.75 6.25 12.41 6.25 12C6.25 11.59 6.59 11.25 7 11.25H11C11.41 11.25 11.75 11.59 11.75 12C11.75 12.41 11.41 12.75 11 12.75Z"}),React.createElement("path", {"d":"M9 14.75C8.59 14.75 8.25 14.41 8.25 14V10C8.25 9.59 8.59 9.25 9 9.25C9.41 9.25 9.75 9.59 9.75 10V14C9.75 14.41 9.41 14.75 9 14.75Z"}),);
+};
+
+var TwoTone = function TwoTone(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M16 8.99084V20.3509C16 21.8009 14.96 22.4108 13.69 21.7108L9.76001 19.5208C9.34001 19.2908 8.65999 19.2908 8.23999 19.5208L4.31 21.7108C3.04 22.4108 2 21.8009 2 20.3509V8.99084C2 7.28084 3.39999 5.88086 5.10999 5.88086H12.89C14.6 5.88086 16 7.28084 16 8.99084Z","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"opacity":"0.4","d":"M22 5.10999V16.47C22 17.92 20.96 18.53 19.69 17.83L16 15.77V8.98999C16 7.27999 14.6 5.88 12.89 5.88H8V5.10999C8 3.39999 9.39999 2 11.11 2H18.89C20.6 2 22 3.39999 22 5.10999Z","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("g", {"opacity":"0.4"},React.createElement("path", {"d":"M7 12H11","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M9 14V10","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),));
+};
+
+var chooseVariant = function(variant, color) {
+  switch (variant) {
+    case 'Linear':
+      return React.createElement(Linear, { color: color });
+    case 'Bold':
+      return React.createElement(Bold, { color: color });
+    case 'Broken':
+      return React.createElement(Broken, { color: color });
+    case 'Bulk':
+      return React.createElement(Bulk, { color: color });
+    case 'Outline':
+      return React.createElement(Outline, { color: color });
+    case 'TwoTone':
+      return React.createElement(TwoTone, { color: color });
+    default:
+      return React.createElement(Linear, { color: color });
+  }
+};
+
+var SaveAdd = React.forwardRef(function(props, ref) {
+  var variant = props.variant,
+      color = props.color,
+      size = props.size,
+      rest = Object.assign({}, props);
+  delete rest.variant;
+  delete rest.color;
+  delete rest.size;
+
+  return React.createElement("svg", Object.assign({}, rest, {
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: ref,
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none"
+  }), chooseVariant(variant, color));
+});
+
+SaveAdd.defaultProps = {
+  variant: 'Linear',
+  color: 'currentColor',
+  size: '24'
+};
+SaveAdd.displayName = 'SaveAdd';
+
+export default SaveAdd;

@@ -1,0 +1,42 @@
+import React from 'react';
+
+var Broken = function Broken(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M18.3304 6.15L20.6904 3.79C21.3504 3.13 20.8804 2 19.9504 2H18.5404C17.7104 2 16.9104 2.33 16.3204 2.92L12.7404 6.5C12.3304 6.91 11.6704 6.91 11.2604 6.5L7.68039 2.92C7.09039 2.33 6.29042 2 5.46042 2H4.05039C3.12039 2 2.6504 3.13 3.3104 3.79L9.04038 9.52C10.6804 11.16 13.3304 11.16 14.9704 9.52L15.5304 8.96","stroke":"currentColor","strokeWidth":"1.5","strokeMiterlimit":"10","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M5.46042 21.9687H4.05039C3.12039 21.9687 2.6504 20.8388 3.3104 20.1788L9.04038 14.4488C10.6804 12.8088 13.3304 12.8088 14.9704 14.4488L20.7004 20.1788C21.3604 20.8388 20.8904 21.9687 19.9604 21.9687H18.5504C17.7204 21.9687 16.9204 21.6387 16.3304 21.0487L12.7504 17.4687C12.3404 17.0587 11.6804 17.0587 11.2704 17.4687L7.6904 21.0487C7.0904 21.6387 6.29042 21.9687 5.46042 21.9687Z","stroke":"currentColor","strokeWidth":"1.5","strokeMiterlimit":"10","strokeLinecap":"round","strokeLinejoin":"round"}),);
+};
+
+var chooseVariant = function(variant, color) {
+  switch (variant) {
+    case 'Broken':
+      return React.createElement(Broken, { color: color });
+    default:
+      return React.createElement(Broken, { color: color });
+  }
+};
+
+var XrpXrpCryptocurrencyDigitalAssetBlockchainPaymentTransactions = React.forwardRef(function(props, ref) {
+  var variant = props.variant,
+      color = props.color,
+      size = props.size,
+      rest = Object.assign({}, props);
+  delete rest.variant;
+  delete rest.color;
+  delete rest.size;
+
+  return React.createElement("svg", Object.assign({}, rest, {
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: ref,
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none"
+  }), chooseVariant(variant, color));
+});
+
+XrpXrpCryptocurrencyDigitalAssetBlockchainPaymentTransactions.defaultProps = {
+  variant: 'Linear',
+  color: 'currentColor',
+  size: '24'
+};
+XrpXrpCryptocurrencyDigitalAssetBlockchainPaymentTransactions.displayName = 'XrpXrpCryptocurrencyDigitalAssetBlockchainPaymentTransactions';
+
+export default XrpXrpCryptocurrencyDigitalAssetBlockchainPaymentTransactions;

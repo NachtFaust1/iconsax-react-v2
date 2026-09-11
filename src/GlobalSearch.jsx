@@ -1,0 +1,72 @@
+import React from 'react';
+
+var Bold = function Bold(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M21.79 20.76L21.07 20.04C21.44 19.48 21.66 18.8 21.66 18.08C21.66 16.1 20.06 14.5 18.08 14.5C16.1 14.5 14.5 16.1 14.5 18.08C14.5 20.06 16.1 21.66 18.08 21.66C18.81 21.66 19.48 21.44 20.04 21.07L20.76 21.79C20.9 21.93 21.09 22 21.27 22C21.46 22 21.64 21.93 21.78 21.79C22.07 21.5 22.07 21.04 21.79 20.76Z"}),React.createElement("path", {"d":"M2.03001 14.6309C2.03001 14.6609 2.01001 14.7009 2.01001 14.7309C2.93001 16.5709 4.43001 18.0809 6.27001 18.9909C6.30001 18.9909 6.34001 18.9709 6.37001 18.9709C6.03001 17.8109 5.77001 16.6209 5.58001 15.4309C4.38001 15.2309 3.19001 14.9709 2.03001 14.6309Z"}),React.createElement("path", {"d":"M19.0701 6.42945C18.1301 4.45945 16.5401 2.86945 14.5801 1.93945C14.9401 3.12945 15.2401 4.34945 15.4401 5.56945C16.6601 5.76945 17.8801 6.05945 19.0701 6.42945Z"}),React.createElement("path", {"d":"M1.92993 6.42953C3.12993 6.06953 4.34993 5.76953 5.56993 5.56953C5.76993 4.37953 6.01993 3.19953 6.35993 2.03953C6.32993 2.03953 6.28993 2.01953 6.25993 2.01953C4.37993 2.94953 2.84993 4.51953 1.92993 6.42953Z"}),React.createElement("path", {"d":"M13.8199 5.36C13.5799 4.06 13.2799 2.76 12.8499 1.5C12.8299 1.43 12.8299 1.37 12.8199 1.29C12.0799 1.11 11.2999 1 10.4999 1C9.68993 1 8.91993 1.11 8.16993 1.3C8.15993 1.37 8.16993 1.43 8.14993 1.51C7.72993 2.77 7.41993 4.06 7.17993 5.36C9.38993 5.12 11.6099 5.12 13.8199 5.36Z"}),React.createElement("path", {"d":"M5.36 7.17969C4.05 7.41969 2.77 7.72969 1.5 8.14969C1.43 8.16969 1.37 8.16969 1.3 8.17969C1.11 8.91969 1 9.69969 1 10.4997C1 11.3097 1.11 12.0797 1.3 12.8297C1.37 12.8397 1.43 12.8297 1.51 12.8497C2.77 13.2697 4.06 13.5797 5.37 13.8197C5.12 11.6097 5.12 9.38969 5.36 7.17969Z"}),React.createElement("path", {"d":"M19.6999 8.17969C19.6299 8.17969 19.5699 8.16969 19.4899 8.14969C18.2299 7.72969 16.9299 7.41969 15.6299 7.17969C15.8799 9.38969 15.8799 11.6097 15.6299 13.8097C16.9299 13.5697 18.2299 13.2697 19.4899 12.8397C19.5599 12.8197 19.6199 12.8297 19.6999 12.8197C19.8799 12.0697 19.9999 11.2997 19.9999 10.4897C19.9999 9.69969 19.8899 8.92969 19.6999 8.17969Z"}),React.createElement("path", {"d":"M7.17993 15.6409C7.41993 16.9509 7.71993 18.2409 8.14993 19.5009C8.16993 19.5709 8.15993 19.6309 8.16993 19.7109C8.91993 19.8909 9.68993 20.0009 10.4999 20.0009C11.2999 20.0009 12.0799 19.8909 12.8199 19.7009C12.8299 19.6309 12.8299 19.5709 12.8499 19.4909C13.2699 18.2309 13.5799 16.9409 13.8199 15.6309C12.7199 15.7509 11.6099 15.8409 10.4999 15.8409C9.38993 15.8409 8.27993 15.7609 7.17993 15.6409Z"}),React.createElement("path", {"d":"M6.9501 6.94961C6.6501 9.30961 6.6501 11.6896 6.9501 14.0596C9.3101 14.3596 11.6901 14.3596 14.0601 14.0596C14.3601 11.6996 14.3601 9.31961 14.0601 6.94961C11.6901 6.64961 9.3101 6.64961 6.9501 6.94961Z"}),);
+};
+
+var Broken = function Broken(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M8.0001 3H9.0001C7.0501 8.84 7.0501 15.16 9.0001 21H8.0001","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M15 3C15.97 5.92 16.46 8.96 16.46 12","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M3 16V15C5.92 15.97 8.96 16.46 12 16.46","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M21 8.99908C18.08 8.02908 15.04 7.53906 12 7.53906","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M3 8.99982C4.59 8.46982 6.21001 8.08984 7.85001 7.83984","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M18.2 21.4C19.9673 21.4 21.4 19.9673 21.4 18.2C21.4 16.4327 19.9673 15 18.2 15C16.4327 15 15 16.4327 15 18.2C15 19.9673 16.4327 21.4 18.2 21.4Z","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M22 22L21 21","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),);
+};
+
+var Bulk = function Bulk(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M21.79 20.76L21.07 20.04C21.44 19.48 21.66 18.8 21.66 18.08C21.66 16.1 20.06 14.5 18.08 14.5C16.1 14.5 14.5 16.1 14.5 18.08C14.5 20.06 16.1 21.66 18.08 21.66C18.81 21.66 19.48 21.44 20.04 21.07L20.76 21.79C20.9 21.93 21.09 22 21.27 22C21.46 22 21.64 21.93 21.78 21.79C22.07 21.5 22.07 21.04 21.79 20.76Z"}),React.createElement("path", {"opacity":"0.4","d":"M2.02977 14.6309C2.02977 14.6609 2.00977 14.7009 2.00977 14.7309C2.92977 16.5709 4.42978 18.0808 6.26978 18.9908C6.29978 18.9908 6.33977 18.9709 6.36977 18.9709C6.02977 17.8109 5.76977 16.6208 5.57977 15.4308C4.37977 15.2308 3.18977 14.9709 2.02977 14.6309Z"}),React.createElement("path", {"opacity":"0.4","d":"M19.0701 6.42944C18.1301 4.45944 16.5401 2.86945 14.5801 1.93945C14.9401 3.12945 15.2401 4.34946 15.4401 5.56946C16.6601 5.76946 17.8801 6.05944 19.0701 6.42944Z"}),React.createElement("path", {"opacity":"0.4","d":"M1.93018 6.42953C3.13018 6.06953 4.35019 5.76955 5.57019 5.56955C5.77019 4.37955 6.02018 3.19955 6.36018 2.03955C6.33018 2.03955 6.29018 2.01953 6.26018 2.01953C4.38018 2.94953 2.85018 4.51954 1.93018 6.42953Z"}),React.createElement("path", {"opacity":"0.4","d":"M13.8202 5.36023C13.5802 4.06023 13.2802 2.76024 12.8502 1.50024C12.8302 1.43024 12.8302 1.37025 12.8202 1.29025C12.0802 1.11025 11.3002 0.990234 10.5002 0.990234C9.69018 0.990234 8.92018 1.10025 8.17018 1.29025C8.16018 1.36025 8.17018 1.42024 8.15018 1.50024C7.73018 2.76024 7.42018 4.06023 7.18018 5.36023C9.39018 5.12023 11.6102 5.12023 13.8202 5.36023Z"}),React.createElement("path", {"opacity":"0.4","d":"M5.36023 7.17969C4.05023 7.41969 2.76023 7.71969 1.50023 8.14969C1.43023 8.16969 1.37022 8.16969 1.29022 8.17969C1.11022 8.91969 0.990234 9.69969 0.990234 10.4997C0.990234 11.3097 1.10022 12.0797 1.29022 12.8297C1.36022 12.8397 1.42023 12.8297 1.50023 12.8497C2.76023 13.2697 4.05023 13.5797 5.36023 13.8197C5.12023 11.6097 5.12023 9.38969 5.36023 7.17969Z"}),React.createElement("path", {"opacity":"0.4","d":"M19.6999 8.17969C19.6299 8.17969 19.5699 8.16969 19.4899 8.14969C18.2299 7.72969 16.9299 7.41969 15.6299 7.17969C15.8799 9.38969 15.8799 11.6097 15.6299 13.8097C16.9299 13.5697 18.2299 13.2697 19.4899 12.8397C19.5599 12.8197 19.6199 12.8297 19.6999 12.8197C19.8799 12.0697 19.9999 11.2997 19.9999 10.4897C19.9999 9.69969 19.8899 8.92969 19.6999 8.17969Z"}),React.createElement("path", {"opacity":"0.4","d":"M7.18018 15.6406C7.42018 16.9506 7.72018 18.2406 8.15018 19.5006C8.17018 19.5706 8.16018 19.6306 8.17018 19.7106C8.92018 19.8906 9.69018 20.0106 10.5002 20.0106C11.3002 20.0106 12.0802 19.9006 12.8202 19.7106C12.8302 19.6406 12.8302 19.5806 12.8502 19.5006C13.2702 18.2406 13.5802 16.9506 13.8202 15.6406C12.7202 15.7606 11.6102 15.8506 10.5002 15.8506C9.39018 15.8406 8.28018 15.7606 7.18018 15.6406Z"}),React.createElement("path", {"opacity":"0.4","d":"M6.9501 6.94961C6.6501 9.30961 6.6501 11.6896 6.9501 14.0596C9.3101 14.3596 11.6901 14.3596 14.0601 14.0596C14.3601 11.6996 14.3601 9.31961 14.0601 6.94961C11.6901 6.64961 9.3101 6.64961 6.9501 6.94961Z"}),);
+};
+
+var Linear = function Linear(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M7.99998 3H8.99998C7.04998 8.84 7.04998 15.16 8.99998 21H7.99998","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M15 3C15.97 5.92 16.46 8.96 16.46 12","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M3 16V15C5.92 15.97 8.96 16.46 12 16.46","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M3 8.99961C8.84 7.04961 15.16 7.04961 21 8.99961","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M18.2 21.4C19.9673 21.4 21.4 19.9673 21.4 18.2C21.4 16.4327 19.9673 15 18.2 15C16.4327 15 15 16.4327 15 18.2C15 19.9673 16.4327 21.4 18.2 21.4Z","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M22 22L21 21","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),);
+};
+
+var Outline = function Outline(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M12 22.75C6.07 22.75 1.25 17.93 1.25 12C1.25 6.07 6.07 1.25 12 1.25C17.93 1.25 22.75 6.07 22.75 12C22.75 12.41 22.41 12.75 22 12.75C21.59 12.75 21.25 12.41 21.25 12C21.25 6.9 17.1 2.75 12 2.75C6.9 2.75 2.75 6.9 2.75 12C2.75 17.1 6.9 21.25 12 21.25C12.41 21.25 12.75 21.59 12.75 22C12.75 22.41 12.41 22.75 12 22.75Z"}),React.createElement("path", {"d":"M9.00024 21.75H8.00024C7.59024 21.75 7.25024 21.41 7.25024 21C7.25024 20.59 7.57023 20.26 7.98023 20.25C6.41023 14.89 6.41023 9.11 7.98023 3.75C7.58023 3.74 7.25024 3.41 7.25024 3C7.25024 2.59 7.59024 2.25 8.00024 2.25H9.00024C9.24024 2.25 9.47024 2.37 9.61024 2.56C9.75024 2.76 9.79025 3.00999 9.71025 3.23999C7.83025 8.88999 7.83025 15.12 9.71025 20.77C9.79025 21 9.75024 21.25 9.61024 21.45C9.47024 21.65 9.24024 21.75 9.00024 21.75Z"}),React.createElement("path", {"d":"M16.46 12.7505C16.05 12.7505 15.71 12.4105 15.71 12.0005C15.71 9.02045 15.2299 6.07044 14.2899 3.24044C14.1599 2.85044 14.3699 2.42043 14.7599 2.29043C15.1499 2.16043 15.58 2.37046 15.71 2.76046C16.7 5.74046 17.21 8.85045 17.21 12.0005C17.21 12.4105 16.87 12.7505 16.46 12.7505Z"}),React.createElement("path", {"d":"M12 17.2108C9.2 17.2108 6.43 16.8108 3.75 16.0208C3.74 16.4208 3.41 16.7508 3 16.7508C2.59 16.7508 2.25 16.4108 2.25 16.0008V15.0008C2.25 14.7608 2.37 14.5308 2.56 14.3908C2.76 14.2508 3.01001 14.2108 3.24001 14.2908C6.07001 15.2308 9.02 15.7108 12 15.7108C12.41 15.7108 12.75 16.0508 12.75 16.4608C12.75 16.8708 12.41 17.2108 12 17.2108Z"}),React.createElement("path", {"d":"M21.0002 9.7494C20.9202 9.7494 20.8402 9.73942 20.7602 9.70942C15.1102 7.82942 8.88018 7.82942 3.23018 9.70942C2.84018 9.83942 2.41018 9.62939 2.28018 9.23939C2.15018 8.84939 2.36018 8.41938 2.75018 8.28938C8.71018 6.29938 15.2702 6.29938 21.2202 8.28938C21.6102 8.41938 21.8202 8.84939 21.6902 9.23939C21.6102 9.54939 21.3102 9.7494 21.0002 9.7494Z"}),React.createElement("path", {"d":"M18.2 22.15C16.02 22.15 14.25 20.38 14.25 18.2C14.25 16.02 16.02 14.25 18.2 14.25C20.38 14.25 22.15 16.02 22.15 18.2C22.15 20.38 20.38 22.15 18.2 22.15ZM18.2 15.75C16.85 15.75 15.75 16.85 15.75 18.2C15.75 19.55 16.85 20.65 18.2 20.65C19.55 20.65 20.65 19.55 20.65 18.2C20.65 16.85 19.55 15.75 18.2 15.75Z"}),React.createElement("path", {"d":"M21.9999 22.7495C21.8099 22.7495 21.6199 22.6795 21.4699 22.5295L20.4699 21.5295C20.1799 21.2395 20.1799 20.7595 20.4699 20.4695C20.7599 20.1795 21.2399 20.1795 21.5299 20.4695L22.5299 21.4695C22.8199 21.7595 22.8199 22.2395 22.5299 22.5295C22.3799 22.6795 22.1899 22.7495 21.9999 22.7495Z"}),);
+};
+
+var TwoTone = function TwoTone(props) {
+  return React.createElement(React.Fragment, null, React.createElement("path", {"d":"M22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("g", {"opacity":"0.4"},React.createElement("path", {"d":"M7.99961 3H8.99961C7.04961 8.84 7.04961 15.16 8.99961 21H7.99961","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M15 3C15.97 5.92 16.46 8.96 16.46 12","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M3 16V15C5.92 15.97 8.96 16.46 12 16.46","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M3 8.99961C8.84 7.04961 15.16 7.04961 21 8.99961","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M18.2 21.4C19.9673 21.4 21.4 19.9673 21.4 18.2C21.4 16.4327 19.9673 15 18.2 15C16.4327 15 15 16.4327 15 18.2C15 19.9673 16.4327 21.4 18.2 21.4Z","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),React.createElement("path", {"d":"M22 22L21 21","stroke":"currentColor","strokeWidth":"1.5","strokeLinecap":"round","strokeLinejoin":"round"}),));
+};
+
+var chooseVariant = function(variant, color) {
+  switch (variant) {
+    case 'Linear':
+      return React.createElement(Linear, { color: color });
+    case 'Bold':
+      return React.createElement(Bold, { color: color });
+    case 'Broken':
+      return React.createElement(Broken, { color: color });
+    case 'Bulk':
+      return React.createElement(Bulk, { color: color });
+    case 'Outline':
+      return React.createElement(Outline, { color: color });
+    case 'TwoTone':
+      return React.createElement(TwoTone, { color: color });
+    default:
+      return React.createElement(Linear, { color: color });
+  }
+};
+
+var GlobalSearch = React.forwardRef(function(props, ref) {
+  var variant = props.variant,
+      color = props.color,
+      size = props.size,
+      rest = Object.assign({}, props);
+  delete rest.variant;
+  delete rest.color;
+  delete rest.size;
+
+  return React.createElement("svg", Object.assign({}, rest, {
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: ref,
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none"
+  }), chooseVariant(variant, color));
+});
+
+GlobalSearch.defaultProps = {
+  variant: 'Linear',
+  color: 'currentColor',
+  size: '24'
+};
+GlobalSearch.displayName = 'GlobalSearch';
+
+export default GlobalSearch;
