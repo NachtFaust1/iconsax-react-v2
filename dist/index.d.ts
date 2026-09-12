@@ -1107,3 +1107,8 @@ export declare const Youtube: Icon;
 export declare const ZelZel: Icon;
 export declare const Zipline: Icon;
 export declare const Zoom: Icon;
+
+export declare const ChevronDown: Icon;
+export declare const ChevronLeft: Icon;
+export declare const ChevronRight: Icon;
+export declare const ChevronUp: Icon;
