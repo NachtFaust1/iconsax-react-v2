@@ -1,6 +1,6 @@
 {
   "name": "iconsax-react-v2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Iconsax icon pack for React — 1100 icons in 6 styles (Linear, Bold, Broken, Bulk, Outline, TwoTone)",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
