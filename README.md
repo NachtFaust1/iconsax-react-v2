@@ -32,13 +32,13 @@ import { Archive, AddCircle, ShieldTick } from "iconsax-react-v2";
 
 ## Styles
 
-- **Linear** - stroke-only, rounded caps (default)
-- **Bold** - solid fill
-- **Outline** - filled shapes, no strokes
-- **Bulk** - semi-transparent background + solid foreground
-- **Broken** - dashed/stroke variant
-- **TwoTone** - stroke + 40% opacity accent
+- **Linear** — stroke-only, rounded caps (default)
+- **Bold** — solid fill
+- **Outline** — filled shapes, no strokes
+- **Bulk** — semi-transparent background + solid foreground
+- **Broken** — dashed/stroke variant
+- **TwoTone** — stroke + 40% opacity accent
 
 ## License
 
-MIT - Icons from [iconsax.io](https://iconsax.io)
+MIT — Icons from [iconsax.io](https://iconsax.io)
